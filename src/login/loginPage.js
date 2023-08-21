@@ -3,6 +3,8 @@ import NavBar from "../navBar/navBar";
 import MainImg from '../assets/mainpgWeb.png';
 import ttecLogo from '../assets/ttecLogo_Web.png';
 import Button from 'react-bootstrap/Button';
+
+import LoginPopup from "../popups/loginPopup";
 import './LoginPage.css'; // Import your custom CSS file
 
 const LoginPage = () => {
@@ -19,7 +21,7 @@ const LoginPage = () => {
           <h3>Welcome to</h3>
           <h1>BookMeet App!</h1>
           <Button variant="dark" className="loginBtn">SSO Login</Button>
-          <Button variant="dark" className="loginBtn">Non SSO Login</Button>
+          <LoginPopup />
         </div>
         <div className="image-container">
           <img src={MainImg} alt="2 people sitting" id="mainImg" />
