@@ -3,17 +3,30 @@ import NavBar from "../navBar/navBar";
 import MainImg from '../assets/mainpgWeb.png';
 import ttecLogo from '../assets/ttecLogo_Web.png';
 import Button from 'react-bootstrap/Button';
-
+import './LoginPage.css'; // Import your custom CSS file
 
 const LoginPage = () => {
   return (
-    <div>
+    <div className="login-page">
       <NavBar />
-      <img src={ttecLogo} alt="ttec"></img>
-      <img src={MainImg} alt="2 people sitting"></img>
-      <Button variant="dark">SSO Login</Button>
-      <Button variant="dark">Non SSO Login</Button>
+
+      
+      <div className="logo-container">
+        <img src={ttecLogo} alt="ttec" id="tteclogo" />
+      </div>
+      <div className="content-container">
+        <div className="buttons-container">
+          <Button variant="dark" className="loginBtn">SSO Login</Button>
+          <Button variant="dark" className="loginBtn">Non SSO Login</Button>
+        </div>
+        <div className="image-container">
+          <img src={MainImg} alt="2 people sitting" id="mainImg" />
+        </div>
+      </div>
+
+      
     </div>
   );
 };
+
 export default LoginPage;

@@ -6,7 +6,7 @@ const NavBar = () => {
     <div>
       <Navbar bg="dark" data-bs-theme="dark"> 
         <Container>
-          <Navbar.Brand href="#home"><img src={BMLogo} alt=" BookMeet"></img></Navbar.Brand>
+          <Navbar.Brand href="#home"><img src={BMLogo} alt=" BookMeet" style={{width: '80%'}}></img></Navbar.Brand>
         </Container>
       </Navbar>
     </div>

@@ -1,0 +1,49 @@
+/* LoginPage.css */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .image-container {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-right: 1rem; */
+  }
+  
+  .logo-container {
+    display: block;
+    text-align: right;
+    margin: 20px;
+  }
+  #tteclogo{
+    width: 7%;
+  }
+
+  #mainImg{
+    width: 80%;
+    padding: 2rem;
+  }
+  .loginBtn {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    width: 20rem;
+    font-size: large;
+  }
