@@ -16,6 +16,8 @@ const LoginPage = () => {
       </div>
       <div className="content-container">
         <div className="buttons-container">
+          <h3>Welcome to</h3>
+          <h1>BookMeet App!</h1>
           <Button variant="dark" className="loginBtn">SSO Login</Button>
           <Button variant="dark" className="loginBtn">Non SSO Login</Button>
         </div>
